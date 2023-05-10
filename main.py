@@ -9,7 +9,7 @@ from keras.models import load_model
 IMAGE_SIZE = 256
 BATCH_SIZE = 32
 CHANNELS = 3
-EPOCHS = 2
+EPOCHS = 20
 
 dataset = tf.keras.preprocessing.image_dataset_from_directory(
     "Dataset",
